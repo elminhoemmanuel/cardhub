@@ -1,6 +1,6 @@
-### SFS Capital
+### Cardhub
 
-A Landing page and Dashboard implementation.
+A Fintect web application landing page and Dashboard pages.
 
 ### Technologies used: 
 * Next.js
