@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react'
+import SignUpLeft from '../components/SignUpLeft'
+import SignUpRight from '../components/SignUpRight'
 
 
 
@@ -13,7 +15,10 @@ export default function Home() {
       </Head>
 
       <div className='2xl:max-w-screen-2xl 2xl:mx-auto'>
-       Hello
+       <div className="h-screen grid grid-cols-7">
+            <SignUpLeft />
+            <SignUpRight />
+       </div>
       </div>
     </>
   )
