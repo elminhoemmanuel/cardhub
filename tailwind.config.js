@@ -14,6 +14,8 @@ module.exports = {
         inputbg:"#F8F8F8",
         inputborder:"#BCBCBC",
         btnblue:"#2994FF",
+        textblue:"#000E48",
+        dashgray:"#FAFAFA",
       }
     },
 
