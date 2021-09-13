@@ -9,7 +9,7 @@ A Fintect web application landing page and Dashboard pages.
 * Tailwindcss
 
 ### How can this be viewed live?
-* This project is deployed live on Netlify and can be viewed at [here]()
+* This project is deployed live on Netlify and can be viewed at [here](https://cardhub.vercel.app/)
 
 
 ### How can this be tested locally ?
