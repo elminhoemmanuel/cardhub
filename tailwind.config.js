@@ -16,6 +16,10 @@ module.exports = {
         btnblue:"#2994FF",
         textblue:"#000E48",
         dashgray:"#FAFAFA",
+        logout:"#FF6464",
+        card1:"#2C2C2C",
+        card2:"#373737",
+        cardgray:"#919191"
       }
     },
 

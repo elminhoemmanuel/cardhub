@@ -16,10 +16,10 @@ export default function Home() {
 
       <div className='2xl:max-w-screen-2xl 2xl:mx-auto'>
        <div className="h-screen relative">
-            <div className='w-28 bg-white fixed h-screen top-0 left-0 hidden md:block'>
+            <div className='w-60 bg-white fixed h-screen top-0 left-0 hidden md:block px-3 pt-10 pb-6'>
                 <SideNav />
             </div>
-            <div className='md:ml-28 bg-dashgray'>
+            <div className='md:ml-60 bg-dashgray pb-16 px-6 md:px-8'>
                 <DashMain />
             </div>
             

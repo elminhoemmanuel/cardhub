@@ -1,7 +1,11 @@
 import React from 'react'
 import PriBtn from './PriBtn'
+import { useRouter } from "next/router"
 
 const SignUpForm = () => {
+
+    const router = useRouter();
+
     return (
         <form >
             <div className='text-center py-3'>
@@ -62,14 +66,14 @@ const SignUpForm = () => {
                 </div>
                 <div className="mb-2 flex items-center">
                     <div className="mr-1">
-                        <input type="checkbox" id="terms" name="terms" className='' required/>
+                        <input type="checkbox" id="terms" name="terms" className=''/>
                     </div>
                     <div>
                         <label htmlFor="terms">I accept the terms and conditions</label>
                     </div>
                 </div>
                 <div className="mb-2 ">
-                    <PriBtn btnType="submit" btnText="Get Started" addStyle="block w-full"  />
+                    <PriBtn clicked={()=>{router.push('/dashboard')}} btnType="submit" btnText="Get Started" addStyle="block w-full bg-btnblue text-white hover:bg-blue-600"  />
                 </div>
             </div>
         </form>

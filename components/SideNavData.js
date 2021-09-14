@@ -1,15 +1,17 @@
-
+import {AiFillHome , AiFillCreditCard} from "react-icons/ai"
 
 export const sideData = [
     {
         id:1,
         text:'Dashboard',
-        icon:""
+        icon: <AiFillHome className="h-5 w-5" />,
+        link:""
     },
     {
         id:2,
         text:'My Cards',
-        icon:""
+        icon: <AiFillCreditCard className="h-5 w-5" />,
+        link:""
     },
     
 ]
