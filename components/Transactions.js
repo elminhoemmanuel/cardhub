@@ -1,13 +1,18 @@
 import React from 'react'
 import { transData } from "./TransData"
 import Image from "next/image"
+import { useRouter } from "next/router"
 
-const Transactions = () => {
+
+const Transactions = ({heading}) => {
+
+    const router = useRouter()
+
     return (
-        <div className="bg-white rounded-md p-6 ">
+        <div className={router.pathname.includes("singlecards") ? "bg-white rounded-md p-6 h-96" :"bg-white rounded-md p-6 "}>
             <div className="flex items-center justify-between border-b border-gray-200 pb-6">
                 <div>
-                    <p className='font-bold text-base'>Transaction history</p>
+                    <p className='font-bold text-base'>{heading}</p>
                 </div>
                 <div>
                     <select name="categories" className='border-none bg-transparent p-3 focus:outline-none text-gray-400'>
