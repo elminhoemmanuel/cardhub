@@ -2,10 +2,10 @@ import Head from 'next/head'
 import React, { useState, useEffect } from 'react'
 import DashMain from '../components/DashMain'
 import SideNavDash from '../components/SideNavDash'
+import DashMainSingle from '../components/DashMainSingle'
 
 
-
-export default function Dashboard() {
+export default function SingleCards() {
 
   return (
     <>
@@ -20,7 +20,7 @@ export default function Dashboard() {
                 <SideNavDash />
             </div>
             <div className='md:ml-60 bg-dashgray pb-16 px-6 md:px-8'>
-                <DashMain />
+                <DashMainSingle />
             </div>
             
        </div>

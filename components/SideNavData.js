@@ -14,7 +14,7 @@ export const sideData = [
         text:'My Cards',
         icon: <AiFillCreditCard className="h-5 w-5" />,
         link:"",
-        style:"cards"
+        style:"card"
     },
     
 ]
