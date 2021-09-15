@@ -32,7 +32,7 @@ const DashMain = () => {
         <div className="">
             <DashNav data={navData} />
             <AllCardsSection />
-            <Transactions />
+            <Transactions heading="Activity" />
         </div>
     )
 }

@@ -19,7 +19,8 @@ module.exports = {
         logout:"#FF6464",
         card1:"#2C2C2C",
         card2:"#373737",
-        cardgray:"#919191"
+        cardgray:"#919191",
+        delete:"#FF6C6C",
       }
     },
 

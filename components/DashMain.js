@@ -15,7 +15,7 @@ const DashMain = () => {
         <div className="">
             <DashNav data={navData} />
             <CardsSection />
-            <Transactions />
+            <Transactions heading="Transaction history" />
         </div>
     )
 }
