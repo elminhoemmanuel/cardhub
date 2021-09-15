@@ -6,8 +6,13 @@ const SignUpForm = () => {
 
     const router = useRouter();
 
+    const submitForm = (e) =>{
+        e.preventDefault();
+        router.push('/dashboard')
+    }
+
     return (
-        <form >
+        <form onSubmit={submitForm}>
             <div className='text-center py-3'>
                 <h1 className="font-bold text-black text-xl">Create an account</h1>
                 <p className="text-formtext text-sm">Create an account to continue</p>
@@ -73,7 +78,7 @@ const SignUpForm = () => {
                     </div>
                 </div>
                 <div className="mb-2 ">
-                    <PriBtn clicked={()=>{router.push('/dashboard')}} btnType="submit" btnText="Get Started" addStyle="block w-full bg-btnblue text-white hover:bg-blue-600"  />
+                    <PriBtn clicked={()=>{}} btnType="submit" btnText="Get Started" addStyle="block w-full bg-btnblue text-white hover:bg-blue-600"  />
                 </div>
             </div>
         </form>
